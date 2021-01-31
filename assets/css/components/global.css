@@ -121,8 +121,13 @@ ul:not([class]) li + li {
 }
 
 a:not([class]) {
-    color: color-mod(var(--color-primary) l(-5%));
+    color: var(--color-base);
     text-decoration-skip-ink: auto;
+    transition: 0.2s ease;
+}
+
+a:not([class]):hover {
+    color: var(--color-primary);
 }
 
 a[class] {
