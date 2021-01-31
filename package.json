@@ -1,8 +1,8 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A custom theme for ghost",
+    "name": "minimal-modern",
+    "description": "A minimal modern theme for ghost",
     "demo": "https://starter.ghost.io",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -21,14 +21,15 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Kanishk Kuanl",
+        "email": "templateflip@outlook.com",
+        "url": "https://templateflip.com/"
     },
     "gpm": {
         "type": "theme",
         "categories": [
             "Minimal",
+            "Modern",
             "Magazine"
         ]
     },
@@ -39,10 +40,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/templateflip/minimal-modern.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/templateflip/minimal-modern/issues",
+    "contributors": "https://github.com/templateflip/minimal-modern/graphs/contributors",
     "devDependencies": {
         "autoprefixer": "9.8.3",
         "cssnano": "4.1.10",
