@@ -2,10 +2,11 @@
 /* ---------------------------------------------------------- */
 
 .gh-head {
-    padding: 3vmin 4vmin;
+    padding: 1vmin 4vmin;
     font-size: 1.6rem;
     line-height: 1.3em;
     background: inherit;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .gh-head a {
