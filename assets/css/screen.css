@@ -137,7 +137,6 @@ html,
     color: var(--color-primary);
 }
 
-
 .gh-more-link:hover {
     text-decoration: underline;
 }
@@ -192,13 +191,15 @@ html,
 }
 
 .gh-excerpt {
-    margin: 1rem 0 0 0;
+    font-style: italic;
+    margin: 1.5rem 0 0 0;
 }
 
 .gh-feature-image {
     grid-column: wide-start / wide-end;
     width: 100%;
-    margin: 3vmin 0 0;
+    margin: 2vmin 0 0;
+    border-radius: 5px;
 }
 
 .gh-post-footer {

@@ -41,7 +41,7 @@
 /* ---------------------------------------------------------- */
 
 .gh-content > * + * {
-    margin-top: 4vmin;
+    margin-top: 2rem;
 }
 
 .gh-content [id]:not(:first-child) {
@@ -85,15 +85,19 @@
 .gh-content blockquote {
     position: relative;
     font-style: italic;
+    background-color: var(--color-bg);
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding: 1em 1.5em;
 }
 
 .gh-content blockquote::before {
     content: "";
     position: absolute;
-    left: -1.5em;
+    left: 0;
     top: 0;
     bottom: 0;
-    width: 0.3rem;
+    width: 0.5rem;
     background: var(--color-primary);
 }
 
