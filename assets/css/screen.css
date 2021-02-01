@@ -94,9 +94,11 @@ html,
 
 .gh-card-image {
     width: 100%;
+    max-width: 800px;
     max-height: 700px;
     object-fit: cover;
-    margin-bottom: 4vmin;
+    margin: 0 auto;
+    margin-bottom: 2vmin;
 }
 
 .gh-card-meta {
@@ -110,15 +112,15 @@ html,
 }
 
 .gh-card-content {
-    max-width: 720px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-size: 1.6rem;
 }
 
 .gh-card-content p {
     margin: 1.2rem 0;
-    padding: 0 6vmin;
 }
 
 .gh-card-content > strong {
