@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    color: color-mod(var(--color-base) l(+20%));
+    color: color-mod(var(--color-base) l(+15%));
     font-family: var(--font-sans-serif);
     font-size: 1.5rem;
     line-height: 1.6em;
@@ -121,7 +121,7 @@ ul:not([class]) li + li {
 }
 
 a:not([class]) {
-    color: var(--color-base);
+    color: var(--color-pri);
     text-decoration-skip-ink: auto;
     transition: 0.2s ease;
 }

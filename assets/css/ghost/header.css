@@ -69,11 +69,19 @@
 
 .gh-head-menu .nav a {
     display: inline-block;
+    text-transform: uppercase;
+    color: color-mod(var(--color-base) l(+42%));
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
     padding: 5px 0;
 }
 
+
+
+.gh-head-menu .nav a:hover,
 .gh-head-menu .nav-current a {
-    box-shadow: 0 -1px 0 0 currentcolor inset;
+    color: var(--color-base);
 }
 
 
