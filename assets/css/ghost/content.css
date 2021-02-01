@@ -9,11 +9,11 @@
         [full-start]
         minmax(4vw, auto)
             [wide-start]
-            minmax(auto, 240px)
+            minmax(auto, 120px)
                 [main-start]
                     min(720px, calc(100% - 8vw))
                 [main-end]
-            minmax(auto, 240px)
+            minmax(auto, 120px)
             [wide-end]
         minmax(4vw, auto)
         [full-end]
@@ -64,7 +64,7 @@
 .gh-canvas > p {
     font-family: var(--font-sans-serif);
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.68rem;
     line-height: 1.68em;
 }
 
