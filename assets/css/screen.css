@@ -138,6 +138,11 @@ html,
 }
 
 
+.gh-more-link:hover {
+    text-decoration: underline;
+}
+
+
 /* Page
 /* ---------------------------------------------------------- */
 
