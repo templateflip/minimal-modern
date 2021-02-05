@@ -9,11 +9,11 @@
         [full-start]
         minmax(4vw, auto)
             [wide-start]
-            minmax(auto, 120px)
+            minmax(auto, 130px)
                 [main-start]
-                    min(720px, calc(100% - 8vw))
+                    min(700px, calc(100% - 8vw))
                 [main-end]
-            minmax(auto, 120px)
+            minmax(auto, 130px)
             [wide-end]
         minmax(4vw, auto)
         [full-end]
@@ -54,7 +54,7 @@
 
 .gh-content [id] + .kg-card,
 .gh-content blockquote + .kg-card {
-    margin-top: 6vmin;
+    margin-top: 3vmin;
 }
 
 .gh-canvas > blockquote,
@@ -65,7 +65,7 @@
     font-family: var(--font-sans-serif);
     font-weight: 400;
     font-size: 1.68rem;
-    line-height: 1.68em;
+    line-height: 1.6em;
 }
 
 .gh-content > ul,
@@ -74,12 +74,16 @@
     padding-left: 1.9em;
 }
 
+.gh-content li {
+    margin-bottom: 1rem;
+}
+
 .gh-content hr {
-    margin-top: 6vmin;
+    margin-top: 3vmin;
 }
 
 .gh-content hr + * {
-    margin-top: 6vmin !important;
+    margin-top: 3vmin !important;
 }
 
 .gh-content blockquote {
@@ -120,11 +124,11 @@
 /* ---------------------------------------------------------- */
 
 .gh-content :not(.kg-card):not([id]) + .kg-card {
-    margin-top: 6vmin;
+    margin-top: 3vmin;
 }
 
 .gh-content .kg-card + :not(.kg-card) {
-    margin-top: 6vmin;
+    margin-top: 3vmin;
 }
 
 .kg-card figcaption {
@@ -346,20 +350,20 @@
 }
 
 .gh-content tbody tr:nth-child(2n + 1) {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.03);
     padding: 1px;
 }
 
 .gh-content tbody tr:nth-child(2n + 2) td:last-child {
     box-shadow:
-        inset 1px 0 rgba(0,0,0,0.1),
-        inset -1px 0 rgba(0,0,0,0.1);
+        inset 1px 0 rgba(0,0,0,0.03),
+        inset -1px 0 rgba(0,0,0,0.03);
 }
 
 .gh-content tbody tr:nth-child(2n + 2) td {
-    box-shadow: inset 1px 0 rgba(0,0,0,0.1);
+    box-shadow: inset 1px 0 rgba(0,0,0,0.03);
 }
 
 .gh-content tbody tr:last-child {
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.03);
 }

@@ -117,12 +117,12 @@ html,
     margin: 0 auto;
     text-align: left;
     font-size: 1.68rem;
-    line-height: 1.68em;
+    line-height: 1.6em;
 }
 
 .gh-card-header,
 .gh-card-excerpt {
-    max-width: 720px;
+    max-width:700px;
     margin: 0 auto;
 }
 
@@ -156,7 +156,7 @@ html,
 }
 
 .gh-page-head > p {
-    max-width: 720px;
+    max-width: 700px;
     margin: 0.3em auto 0;
     padding: 0 6vmin;
     font-size: 1.3em;
