@@ -2,10 +2,11 @@
 /* ---------------------------------------------------------- */
 
 .gh-foot {
+    background-color: var(--color-bg);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8vmin 4vmin;
+    padding: 4vmin 2vmin;
 }
 
 .gh-foot .gh-container {
@@ -28,11 +29,11 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    font-size: 1.68rem;
+    font-size: 1.5rem;
 }
 
 .gh-foot-menu .nav li {
-    margin: 0 1.5vmin;
+    margin: 0 1.5rem;
     padding: 0;
 }
 
@@ -40,14 +41,18 @@
     display: inline-block;
     padding: 3px 0;
     text-decoration: none;
-    box-shadow: 0 -1px 0 0 currentcolor inset;
+    opacity: 0.75;
+}
+
+.gh-foot-menu .nav a:hover {
+    opacity: 1;
 }
 
 .gh-foot-meta {
     margin: 2rem 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.65;
 }
 
 @media (max-width: 700px) {
