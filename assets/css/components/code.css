@@ -1,0 +1,38 @@
+code,
+kbd,
+pre,
+samp,
+tt,
+var {
+  color: color-mod(var(--color-primary) lightness(42%));
+  font-family: var(--font-mono);
+  font-size: 90%;
+}
+
+code,
+kbd,
+tt {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  padding: 3px 8px;
+  white-space: nowrap;
+}
+
+pre {
+  overflow-x: scroll;
+  background: var(--color-bg);
+  font-size: 100%;
+  line-height: 1.6;
+  padding: 12px 16px;
+}
+
+pre > code {
+  background: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  display: block;
+  white-space: pre;
+  padding: 0.15em 0.4em 0.15em;
+}
