@@ -31,11 +31,27 @@
     </div>
 
     <footer class="gh-footer gh-canvas">
-
-        <div class="gh-post-authors">
-            Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
+        <div class="gh-footer-bar">
+            <div class="gh-post-authors-container">
+                <div class="gh-post-author-by gh-post-meta">Written By</div>
+                <div class="gh-post-authors">
+                    <div class="gh-post-author-name hidden-xs hidden-sm">
+                        {{#foreach authors}}<a class="gh-post-author-name-link" href="{{url}}">{{name}}</a>{{/foreach}}
+                    </div>
+                </div>
+            </div>
+            <div class="gh-share-buttons">            
+                <div class="gh-share-buttons-title gh-post-meta">Share This</div>
+                <div class="gh-share-icons">
+                    <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}&text={{encode title}}" target="_blank">{{> "icons/twitter"}}</a>
+                    <a href="https://www.facebook.com/sharer.php?u={{url absolute="true"}}" target="_blank">{{> "icons/facebook"}}</a>
+                    <a href="https://pinterest.com/pin/create/button/?url={{url absolute="true"}}&media={{featured_image}}&description={{encode title}}"
+                        target="_blank" data-pin-do="none">{{> "icons/pinterest"}}</a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{encode title}}"
+                        target="_blank">{{> "icons/linkedin"}}</a>
+                </div>
+            </div>
         </div>
-
         {{!--
         <section class="gh-post-comments">
             If you want to embed comments, this is a good place to do it!

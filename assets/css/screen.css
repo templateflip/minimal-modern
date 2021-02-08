@@ -19,6 +19,7 @@ production stylesheet in assets/built/screen.css using: gulp dev
 @import "ghost/header.css";
 @import "ghost/content.css";
 @import "ghost/readmore.css";
+@import "ghost/post-footer.css";
 @import "ghost/members.css";
 @import "ghost/errors.css";
 @import "ghost/footer.css";
