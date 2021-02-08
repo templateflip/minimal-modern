@@ -6,6 +6,9 @@
     font-size: 1.6rem;
     line-height: 1.3em;
     background: inherit;
+    width: 100%;
+    max-width: var(--max-site-width);
+    margin: 0 auto;
     border-bottom: 1px solid var(--color-border);
 }
 

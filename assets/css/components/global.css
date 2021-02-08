@@ -150,6 +150,7 @@ h6 {
     margin: 0;
     line-height: 1.15em;
     font-weight: 700;
+    color: color-mod(var(--color-base) l(+10%));
 }
 
 h1 {

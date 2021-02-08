@@ -2,11 +2,13 @@
 /* ---------------------------------------------------------- */
 
 .gh-foot {
-    background-color: var(--color-bg);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 4vmin 2vmin;
+    width: 100%;
+    max-width: var(--max-site-width);
+    margin: 0 auto;
 }
 
 .gh-foot .gh-container {
