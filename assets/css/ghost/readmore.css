@@ -18,7 +18,7 @@
 
 .gh-readmore-prev,
 .gh-readmore-next {
-    border-top: 1px solid color-mod(var(--color-base) lightness(95%));
+    border-top: 1px solid color-mod(var(--color-base) lightness(98%));
     border-left: 0;
     padding: 3rem;
 }
@@ -40,11 +40,11 @@
 
 .gh-readmore a:hover {
     text-decoration: none;
-    color: var(--color-primary);
 }
 
 .gh-readmore h4 {
     width: 100%;
+    color: currentColor;
     font-size: inherit;
     font-weight: 500;
     line-height: 1.4;
