@@ -30,7 +30,15 @@
         {{content}}
     </div>
 
-    <footer class="gh-footer gh-canvas">
+    <footer class="gh-post-footer gh-canvas">
+        <div class="gh-post-footer-tags">            
+            {{#if tags}}
+                <span class="gh-post-meta-tags">
+                    {{#foreach tags}}<a class="gh-post-tag-{{slug}}" href="{{url}}"
+                            title="{{name}}">#{{name}}</a>{{/foreach}}
+                </span>
+            {{/if}}
+        </div>
         <div class="gh-footer-bar">
             <div class="gh-post-authors-container">
                 <div class="gh-post-author-by gh-post-meta">Written By</div>

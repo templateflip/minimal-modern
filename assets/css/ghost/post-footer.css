@@ -1,8 +1,21 @@
-.gh-footer {
+.gh-post-footer {
   width: 100%;
-  margin: 5vmin auto 0;
+  margin: 0 auto;
   padding: 12px 0;
   font-size: 1.8rem;
+}
+.gh-post-footer-tags {    
+  margin: 3vmin 0;
+  font-size: 1.6rem;
+}
+.gh-post-footer-tags a { 
+  opacity: 0.68;
+}
+.gh-post-footer-tags a:hover {    
+  opacity: 1;
+}
+.gh-post-footer-tags a + a { 
+  margin-left: 12px;
 }
 .gh-footer-bar {
   display: flex;

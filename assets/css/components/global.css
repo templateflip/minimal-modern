@@ -148,7 +148,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    line-height: 1.15em;
+    line-height: 1.25em;
     font-weight: 700;
     color: color-mod(var(--color-base) l(+10%));
 }

@@ -98,7 +98,7 @@ html,
     width: 100%;
     max-height: 450px;
     object-fit: cover;
-    margin: 2vmin auto;
+    margin: 2vmin auto 0;
     border-radius: 4px;
 }
 
@@ -126,6 +126,10 @@ html,
 .gh-card-excerpt {
     max-width:700px;
     margin: 0 auto;
+}
+
+.gh-card-excerpt {
+    margin-top: 2vmin;
 }
 
 .gh-card-content p {
@@ -204,10 +208,6 @@ html,
     border-radius: 5px;
     max-height: 540px;
     object-fit: cover;
-}
-
-.gh-post-footer {
-    margin: 2rem 0;
 }
 
 

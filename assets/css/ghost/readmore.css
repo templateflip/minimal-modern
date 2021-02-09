@@ -36,10 +36,12 @@
     align-self: center;
     justify-content: center;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 .gh-readmore a:hover {
     text-decoration: none;
+    opacity: 1;
 }
 
 .gh-readmore h4 {
