@@ -7,6 +7,9 @@
             <p>
                 {{@site.description}}
             </p>
+            {{#if @site.cover_image}}
+                <img class="gh-page-image" src="{{@site.cover_image}}" alt="{{@site.title}}" />
+            {{/if}}
         </header>
         <div class="gh-postfeed">
         {{#foreach posts visibility="all"}}
