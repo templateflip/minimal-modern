@@ -25,7 +25,9 @@
 .gh-post-author-name-link {
   font-weight: 500;
 }
-
+.gh-post-author-name-link + .gh-post-author-name-link:before {
+  content: ", ";
+}
 .gh-share-buttons-title {
   text-align: right;
 }

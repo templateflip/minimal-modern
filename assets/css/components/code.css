@@ -20,7 +20,7 @@ tt {
 }
 
 pre {
-  overflow-x: scroll;
+  overflow-x: auto;
   background: var(--color-bg);
   font-size: 100%;
   line-height: 1.6;
