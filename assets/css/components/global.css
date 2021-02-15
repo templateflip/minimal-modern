@@ -64,7 +64,6 @@ button,
 select,
 textarea {
     font: inherit;
-    -webkit-appearance: none;
 }
 
 fieldset {

@@ -1,6 +1,54 @@
 /* Forms
 /* ---------------------------------------------------------- */
 
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="date"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid color-mod(var(--color-base) lightness(80%));
+  border-radius: var(--radius);
+  box-shadow: none;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.15s ease-in-out;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid var(--color-primary);
+    outline: 0;
+}
+
+label,
+legend {
+  font-weight: 700;
+  display: block;
+}
+
+label + input {
+    margin-top: 1rem;
+}
+
+fieldset {
+  border-width: 0;
+  padding: 0;
+}
+
+
+// Ghost input
 .gh-input,
 .gh-textarea {
     background: var(--color-bg);
